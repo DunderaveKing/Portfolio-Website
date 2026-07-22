@@ -8,7 +8,7 @@ function GlitchBackground() {
   return (
     <div className="glitch-background" aria-hidden="true">
       <LetterGlitch
-        glitchColors={['#0d1117', '#1d2530', '#3b82f6']}
+        glitchColors={['#0d1117', '#1d2530', '#67f63b']}
         glitchSpeed={90}
         centerVignette
         outerVignette
