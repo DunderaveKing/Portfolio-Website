@@ -9,7 +9,7 @@ const LetterGlitch = ({
   centerVignette = false,
   outerVignette = true,
   smooth = true,
-  characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$&*()-_+=/[]{};:<>.,0123456789',
+  characters = '01',
 }) => {
   // useRef holds a value that survives re-renders WITHOUT causing a
   // re-render when it changes (unlike useState). Perfect for animation
