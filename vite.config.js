@@ -7,4 +7,7 @@ import react from '@vitejs/plugin-react'
 // You generally won't need to touch this file for a site like this one.
 export default defineConfig({
   plugins: [react()],
+  // The site lives at https://DunderaveKing.github.io/Portfolio-Website/, so
+  // built asset URLs must start with /Portfolio-Website/ instead of /.
+  base: '/Portfolio-Website/',
 })

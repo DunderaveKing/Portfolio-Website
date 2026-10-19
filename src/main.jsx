@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* BrowserRouter enables client-side routing: it watches the URL
         and lets <Routes>/<Route> in App.jsx decide what to show,
         without a full page reload every time you navigate. */}
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
