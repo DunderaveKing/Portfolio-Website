@@ -14,6 +14,8 @@ function Home() {
       {/* .split(' ')[0] breaks "Matthew McNaughton" into ["Matthew",
           "McNaughton"] and grabs the first word — a quick way to get
           just the first name for a friendlier greeting. */}
+      <img src={profile.profilePic} alt={profile.name} className="profile-pic" />
+
       <h1>Hi, I'm {profile.name.split(' ')[0]}.</h1>
       <p>{profile.intro}</p>
       <Link to="/projects" className="button">

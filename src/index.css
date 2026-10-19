@@ -370,3 +370,16 @@ section + section {
   font-size: 0.85rem;
   color: var(--text-muted);
 }
+
+.social-icon {
+  width: 56px;
+  height: 56px;
+  filter:invert(1)
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;   /* makes it a circle */
+  object-fit: cover;    /* crops instead of stretching */
+}

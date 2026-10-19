@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { profile } from '../data/profile.js'
 import { WEB3FORMS_ACCESS_KEY } from '../data/config.js'
+import linkedinIcon from '../assets/linkedin.svg'
+
 
 function Contact() {
   // useState gives us a piece of state (`formData`) plus a function to
@@ -137,8 +139,8 @@ function Contact() {
         <a href={profile.github} target="_blank" rel="noreferrer">
           {profile.github.replace('https://', '')}
         </a>
-        <a href={profile.linkedin} target="_blank" rel="noreferrer">
-          {profile.linkedin.replace('https://', '')}
+        <a className="icon-link" href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <img src={linkedinIcon} alt="" className="social-icon" />
         </a>
       </div>
     </div>

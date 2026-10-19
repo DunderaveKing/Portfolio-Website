@@ -22,6 +22,7 @@ export const profile = {
     { school: 'Stellenbosch University', period: '2023 – 2024', detail: 'Electrical Engineering' },
     { school: 'Union High School', period: '2017 – 2022', detail: 'National Senior Certificate' },
   ],
+
   coursework: [
     'Professional Software & Data Visualization',
     'Governance, Legislations & Ethics',
