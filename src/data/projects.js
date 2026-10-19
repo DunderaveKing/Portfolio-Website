@@ -21,7 +21,7 @@ export const projects = [
     stack: ['Python', 'Flask-Library', 'HTML & CSS', 'Pandas-Library'], // TODO: e.g. ['Python', 'SQL']
     role: 'Ai assisted, I personally designed and adjusted errors and user-flow issues',
     challenge: 'To create an effective solution to better visualise over-use of electricty, as well as an easier way to quicky record electricty measures from a non-smart electricity meter',
-    liveUrl: '',
+    liveUrl: 'https://dunderaveking.github.io/electricity-app/index.html',
     repoUrl: 'https://github.com/DunderaveKing/electricity-app.git',
   },
 ]
