@@ -14,14 +14,14 @@ export const projects = [
     repoUrl: 'https://github.com/DunderaveKing',
   },
   {
-    slug: 'asset-tracker',
-    name: 'Asset Tracker',
-    status: 'In Progress',
-    summary: 'TODO: one or two sentences on what the Asset Tracker does and who it is for.',
-    stack: [], // TODO: e.g. ['Python', 'SQL']
-    role: 'TODO: solo or team, and what you specifically built.',
-    challenge: 'TODO: a specific technical challenge you ran into and how you solved it.',
+    slug: 'electricty-tracker',
+    name: 'Electricity Tracker',
+    status: 'In Development',
+    summary: 'In a student enviroment, having multiple roommates and gauging electricity usage and projection of our rates can be tricky on a manual prepaid meter. To address it i have developed a solution that records, stores and visualises the data.',
+    stack: ['Python', 'Flask-Library', 'HTML & CSS', 'Pandas-Library'], // TODO: e.g. ['Python', 'SQL']
+    role: 'Ai assisted, I personally designed and adjusted errors and user-flow issues',
+    challenge: 'To create an effective solution to better visualise over-use of electricty, as well as an easier way to quicky record electricty measures from a non-smart electricity meter',
     liveUrl: '',
-    repoUrl: '',
+    repoUrl: 'https://github.com/DunderaveKing/electricity-app.git',
   },
 ]

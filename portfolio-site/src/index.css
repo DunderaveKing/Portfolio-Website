@@ -187,6 +187,9 @@ main {
 
 .project-card:hover {
   border-color: var(--accent);
+  text-decoration: none;
+  color: var(--accent);
+
 }
 
 .project-card h3 {
