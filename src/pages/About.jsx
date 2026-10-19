@@ -1,10 +1,17 @@
 import { profile } from '../data/profile.js'
+// Importing the PDF gives its final URL after the build, just like profilePic.
+import cv from '../assets/CV.pdf'
 
 function About() {
   return (
     <div>
       <h1>About</h1>
       <p>{profile.intro}</p>
+      {/* `download` tells the browser to save the file instead of opening it,
+          and its value is the filename the visitor's copy will get. */}
+      <a href={cv} download="Matthew-McNaughton-CV.pdf" className="button">
+        Download my CV
+      </a>
 
       <section>
         <h2>Skills</h2>
