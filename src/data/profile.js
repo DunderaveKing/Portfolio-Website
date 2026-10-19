@@ -2,6 +2,9 @@
 // This is a plain JS object — no React here. Every page imports `profile`
 // and reads whatever fields it needs (e.g. About.jsx uses profile.skills).
 // Change a value here and it updates everywhere it's used, automatically.
+// Importing an image gives you its final URL after Vite builds the site.
+import profilePic from '../assets/profilePic.jpeg'
+
 export const profile = {
   name: 'Matthew McNaughton',
   tagline: 'Software Developer looking for opportunities to do my best',
@@ -32,4 +35,5 @@ export const profile = {
   email: 'matthewmcnaughton10@gmail.com',
   github: 'https://github.com/DunderaveKing',
   linkedin: 'https://www.linkedin.com/in/matthew-mcnaughton-0b17473a2',
+  profilePic,
 }
