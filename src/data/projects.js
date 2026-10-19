@@ -16,7 +16,7 @@ export const projects = [
   {
     slug: 'electricty-tracker',
     name: 'Electricity Tracker',
-    status: 'In Development',
+    status: 'Live',
     summary: 'In a student enviroment, having multiple roommates and gauging electricity usage and projection of our rates can be tricky on a manual prepaid meter. To address it i have developed a solution that records, stores and visualises the data.',
     stack: ['Python', 'Flask-Library', 'HTML & CSS', 'Pandas-Library'], // TODO: e.g. ['Python', 'SQL']
     role: 'Ai assisted, I personally designed and adjusted errors and user-flow issues',
