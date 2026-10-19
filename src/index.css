@@ -381,5 +381,6 @@ section + section {
   width: 160px;
   height: 160px;
   border-radius: 50%;   /* makes it a circle */
+  border-color: var(--accent);
   object-fit: cover;    /* crops instead of stretching */
 }
